@@ -2,124 +2,194 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async>
+  <!-- NOTE: TEST script -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" type="text/javascript" async>
   </script>
+<!--NOTE: Animation Library-->
+
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" async
+/>
+
 
   <meta charset="utf-8">
-  <title>Ron Todd Survey Form Freecodecamp.org submission 2021</title>
-  <link rel="stylesheet" href="stylesheet.css">
+  <title></title>
+  <link rel="stylesheet" href="C:\Users\USER\Documents\Coding\productPage\stylesheet2.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 
-<body>
-  <div class="container">
+<body class="background">
+  <div id="page-wrapper">
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="https://free-code-camp-portfolio.s3-us-west-1.amazonaws.com/logo.png" />
+      </div>
 
-<div class="title">
+      <!-- NOTE: NAV BAR -->
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link" href="#about-us">About Us</a></li>
 
-  <h1 class"" id="title">The Gunslinger Survey Form</h1>
-</div>
+          <li><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li><a class="nav-link" href="#shop">Shop</a></li>
+        </ul>
+      </nav>
+      <!-- NOTE: NAV BAR END -->
 
-  <p id="description"><em>Over a game of Texas Hold Em, You had a disagreement with the famous outlaw "Billy The Kid", which spills out into the main road. You cannot let your reputation as the meanest gunslinger around be tarnished by turning yella, so you accept the young outlaws challenge to a dual at high noon. In the meantime, the sheriff would like some info for your funeral</em></p>
+    </header>
 
-
-  <!-- Form Element Below-->
-  <form class="" action="index.html" method="post" id="survey-form" autocomplete="off">
-
-<div class="user-field">
-
-
-    <!-- Enter Name -->
-    <div class="name">
-
-      <label for="name" id="name-label">Enter Name</label>
-      <input type="text" name="" value="" id="name" placeholder="John Doe" required>
-    </div>
+    <div class="container"></div>
 
 
+    <!-- NOTE: Product  -->
+    <div class="container">
+      <section id="about-us">
+        <div class="grid">
+          <div class="icon"><span class="material-icons">
+grade
+</span></div>
+          <div class="desc">
+            <h2>Premium Materials</h2>
+            <p>
+              Crafted with care, our CBD tinctures provide beneficial phytocompounds for a full spectrum of plant-powered goodness.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon"><span class="material-icons">
+local_shipping
+</span></div>
+          <div class="desc">
+            <h2>Fast Shipping</h2>
+            <p>
+              We are pleased to offer Free Ground Shipping & Handling within the U.S. for all orders over $74.00. On orders less than $74.00 within the U.S., Shipping & Handling is a flat rate of $8.99. Ground Shipping generally takes 7 business days
+              from the time an order is placed to arrive at your door.
+            </p>
+          </div>
+        </div>
+        <div class="grid">
+          <div class="icon">
+            <span class="material-icons">
+thumb_up
+</span>
+          </div>
+          <div class="desc">
+            <h2>Quality Assurance</h2>
+            <p>
+              We stand behind our products 100%. We work hard to ensure that our quality is second to none We’re so convinced our products will make a difference you can actually feel, that if any product doesn’t meet your expectations, we want you
+              to send it back within the first 30 days of delivery and we will happily give you the opportunity to exchange for another product or receive a full refund.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- NOTE: END -->
 
+      <!-- NOTE: VIDEO -->
+      <section id="testimonials">
+        <iframe id="video" width="560" height="315" src="https://www.youtube-nocookie.com/embed/kddzknN1Zf8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
 
+      <!-- NOTE: END -->
 
-    <!-- Enter Email -->
-    <div class="email">
-      <label for="email" id="email-label">Enter Email</label>
-      <input type="email" name="email" value="" id="email" placeholder="example@bmail.com" required>
-    </div>
+      <!-- NOTE: product -->
+      <section id="shop">
+        <div class="product" id="tenor">
+          <div class="level">1500mg Cooling Salve</div>
+          <img src="https://free-code-camp-portfolio.s3-us-west-1.amazonaws.com/cooling+salve+tin+B.png" alt="">
+          <h2>$50</h2>
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="bass">
+          <div class="level">1500ml Tincture</div>
+          <img src="https://free-code-camp-portfolio.s3-us-west-1.amazonaws.com/Dropper+Bottle+Mockup+03.png" alt="">
+          <h2>$40</h2>
 
+          <button class="btn">Select</button>
+        </div>
+        <div class="product" id="valve">
+          <div class="level">750ml Tincture</div>
+          <img src="https://free-code-camp-portfolio.s3-us-west-1.amazonaws.com/Amber-Dropper-Bottle-Mock-Up-30ml-4.png" alt="">
+          <h2>$25</h2>
 
-    <!-- Enter Number -->
-    <div class="number">
-      <label for="number" id="number-label">Enter Age</label>
-      <input type="number" name="number" value="" id="number" placeholder="123456" required min="18" max="99">
+          <button class="btn">Select</button>
+        </div>
+      </section>
+      <!-- NOTE: END -->
 
-    </div>
-    <!-- Dropdown-->
-    <div class="casket-dropdown">
+      <!-- NOTE: Contact Us -->
+      <section id="hero">
+        <h2>Contact Us</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input type="text" name="name" placeholder="First Name">
+          <input name="email" id="email" type="email" placeholder="Enter your email address" required />
 
-      <p><b>Choose your Casket inlay partner.</b></p>
-      <select class="" name="casket" id="dropdown">
-        <option value="bronze">Bronze</option>
-        <option value="copper">Copper</option>
-        <option value="moth">Mother of Pearl</option>
-        <option value="silver">Silver</option>
-        <option value="gold">Gold</option>
+          <textarea id="subject" placeholder="Send Us A Message" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-      </select>
-    </div>
-    <!-- Radio Buttons -->
-    <div class="radio">
+          <input id="submit" type="submit" value="SUBMIT" class="btn" />
+        </form>
+      </section>
 
-      <p><b>Select Casket Material</b></p>
-      <input type="radio" name="casket-list" value="pine">
-      <label for="radio">Pine</label>
-      <input type="radio" name="casket-list" value="cherry">
-      <label for="radio">Cherry</label>
-      <input type="radio" name="casket-list" value="oak">
-      <label for="radio">Oak</label>
-      <input type="radio" name="casket-list" value="mahog">
-      <label for="radio">Mahogany</label>
-      <p><b>Select Your interior casket lining</br></p>
-      <input type="radio" name="lining" value="burlap">
-      <label for="radio">Burlap</label>
-      <input type="radio" name="lining" value="satin">
-      <label for="radio">Satin</label>
-      <input type="radio" name="lining" value="silk">
-      <label for="radio">Silk</label>
-    </div>
-    <!-- Checkboxes-->
-    <div class="checkbox">
+      <footer class="footer">
+        <ul>
+<li>
+<p>
+  <span class="material-icons">
+contact_phone
+</span></p><span class="material-icons">
+textsms
+</span><p><span class="material-icons">
+mark_email_read
+</span>
+</p>
+</li>
+<a href="#">
+<li><p>Chat Support</p>
+<p>Text "CBD" to 4765</p><p>Email</p><p>orders@bigtreecbd.net</p></li></a>
+          <li><span class="material-icons">
+phone
+</span></li>
 
-      <p><b>What suit material would you like stranger</b></p>
-      <p><em>No worries about the fit, Ill tailor you after...</em></p>
-      <label for="checkbox">Cotton</label>
-      <input type="checkbox" name="" value="cotton">
-      <label for="checkbox">Denim</label>
-      <input type="checkbox" name="" value="denim">
-      <label for="checkbox">Tweed</label>
-      <input type="checkbox" name="" value="tweed">
-      <label for="checkbox">Silk</label>
-      <input type="checkbox" name="" value="silk">
-    </div>
-    <!--Comment/text field-->
-    <div class="text-area">
+<a href="#">
+<li>
+<p>Office Hours:</p>
+  <p>7am-6pm CST</p>
 
-      <p><b>What would you like on your tombstone gunslinger</b></p>
-      <p><em>Make it fancy</em></p>
+<p>1-800-922-BCBD</p>
 
-      <textarea placeholder="Enter your Epitaph here"></textarea>
-    </div>
-    <!--form submission-->
-    <div class="">
-
-      <p><b>The time is nigh Gunslinger</b></p>
-      <p><em>The clock has struck noon</em></p>
-      <button type=submit id="submit">Draw your piece</button>
+</li></a>
+          <li>
+            <span class="material-icons">
+              business
+            </span>
+            <span class="material-icons">
+mail_outline
+</span></li>
+<a href="#">
+          <li>
+            <p>100 Office Way</p>
+            <p>Nashville TN</p>
+<p>3700-9000</p>
+</li></a>
+          <li><span class="material-icons">
+rss_feed
+</span></li>
+          <li><span class="material-icons">
+facebook <a href="https://www.facebook.com/bigtreeextracts"></a>
+</span></li>
+<li><span class="material-icons">
+share
+</span></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span>Copyright 2021, Ron Todd</span>
+      </footer>
     </div>
   </div>
-    <p>I hope you enjoyed my submission for the <a href="">Responsive Webdesign Project</a> :)</p>
-    <footer id="footer">
-      By Ron Todd
-    </footer>
-  </form>
-</div>
+
 </body>
 
 </html>
