@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+
+body{
+background-color: inherit;
+background-image: url(https://wallpapercave.com/wp/wp5138720.jpg);
+background-position: center;
+background-repeat: space;
+margin: 0;
+font-family: sans-serif;
+font-size: 1rem;
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+content: '';
+position: fixed;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+z-index: -1;
+background: var(--color-lightorange);
+background-image:
+url(https://steamuserimages-a.akamaihd.net/ugc/822314902723643072/F30B68C418BB4FB323F718110E762BF808FAE277/);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.container{
+text-align: left;
+width: 100%;
+max-width: 8.3in;
+margin: 3.125rem auto 0 auto;
+color: white;
+text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+justify-content: center;
+
+}
+.user-field{
+  background-color: rgba(165, 135, 76, 0.3);
+
+}
+@media (min-width: 576px) {
+.container {
+max-width: 540px;
+}
+}
+@media (min-width: 768px) {
+.container {
+max-width: 720px;
+}
+}
+#title {
+font-family: 'Rye', cursive;
+color: white;
+
+text-align: center;
+text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.4);
+
+}
+.title{
+background-image: url();
+}
+
+#description {
+
+}
+#survey-form {
+margin: 0 auto;
+height: auto;
+padding: 1em;
+text-align: center;
+border-radius: 1%;
+background-color: rgba();
+}
+.survey-form {
+
+}
+label{
+display: right;
+font-size: 1.125rem;
+margin-bottom: 0.5rem;
+}
+input,
+button,
+select,
+textarea {
+margin: 0;
+font-family: inherit;
+font-size: inherit;
+line-height: inherit;
+}
+#name {
+
+}
+.name {
+
+}
+#email{
+
+}
+.email {
+
+}
+#number-label {
+
+}
+.number {
+
+}
+.casket-dropdown {
+
+}
+#dropdown {
+
+}
+.radio {
+
+}
+.checkbox {
+
+}
+.text-area{
+margin: 0;
+font-size: inherit;
+line-height: inherit;
+}
+#submit{
+
+}
+#footer{
+justify-content:center;
+}
+input:invalid {
+border: 1px dashed grey;
+}
+input:invalid:required {
+background-image: linear-gradient(to right, white, #f5f5f5);
+}
+input:valid {
+border: 1px solid black;
+}
